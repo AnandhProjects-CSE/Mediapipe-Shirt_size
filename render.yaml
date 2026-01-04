@@ -4,5 +4,4 @@ services:
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app
-    pythonVersion: 3.11.9
+    startCommand: gunicorn app:app --workers 1 --threads 2 --timeout 120
