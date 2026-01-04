@@ -37,7 +37,7 @@ le = joblib.load("label_encoder.pkl")
 # ---------- Mediapipe setup ----------
 mp_pose = mp.solutions.pose
 mp_drawing = mp.solutions.drawing_utils
-pose = mp_pose.Pose(static_image_mode=True, min_detection_confidence=0.5)
+pose = mp_pose.Pose(static_image_mode=True,model_complexity=0,enable_segmentation=False,min_detection_confidence=0.5)
 
 # ---------- Authentication Decorator ----------
 def login_required(f):
@@ -210,4 +210,4 @@ def index():
     return render_template("index.html")
 
 if __name__ == "__main__":
-    app.run() #host="0.0.0.0", port=5000, debug=True
+    app.run(host="0.0.0.0", port=5000) 
