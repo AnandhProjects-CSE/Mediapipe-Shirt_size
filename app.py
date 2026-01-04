@@ -6,7 +6,8 @@ import mediapipe as mp
 import joblib
 import uuid
 from functools import wraps
-
+import pandas as pd
+import gc
 # ---------- Config ----------
 UPLOAD_FOLDER = "static/output"
 ALLOWED_EXT = {"png", "jpg", "jpeg"}
@@ -25,14 +26,16 @@ USERS = {
 }
 
 # ---------- Load models ----------
-rf = joblib.load("random_forest_size_model.pkl")
+
 try:
+    rf = joblib.load("random_forest_size_model.pkl")
+    le = joblib.load("label_encoder.pkl")
     xgb = joblib.load("xgboost_size_model.pkl")
     if not hasattr(xgb, "use_label_encoder"):
         xgb.use_label_encoder = False
 except Exception:
     xgb = None
-le = joblib.load("label_encoder.pkl")
+
 
 # ---------- Mediapipe setup ----------
 mp_pose = mp.solutions.pose
@@ -170,6 +173,8 @@ def index():
                 img = cv2.imread(fpath)
                 img = cv2.resize(img, (640, 480))
                 measurements, annotated = extract_measurements_from_image(img, user_height_cm=height_cm)
+                del img 
+                gc.collect()
                 if measurements is None:
                     flash("No person detected in image", "error")
                     return render_template("index.html", error="No person/pose detected. Upload a full-body frontal image.")
@@ -177,20 +182,21 @@ def index():
                 shoulder_final, chest_final, waist_final = measurements
 
                 # Prepare dataframe for model
-                import pandas as pd
+                
                 test_df = pd.DataFrame([[shoulder_final, chest_final, waist_final]],
                                     columns=["shoulder", "chest_cm", "waist_cm"])
 
                 # Predict
                 rf_pred = rf.predict(test_df)[0]
                 rf_size = le.inverse_transform([rf_pred])[0]
-
+                
                 if xgb is not None:
                     xgb_pred = xgb.predict(test_df)[0]
                     xgb_size = le.inverse_transform([xgb_pred])[0]
                 else:
                     xgb_size = None
-
+                del test_df
+                gc.collect()
                 # Final decision
                 final_size = rf_size if (xgb_size is None or rf_size == xgb_size) else rf_size
 
