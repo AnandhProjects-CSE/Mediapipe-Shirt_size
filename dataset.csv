@@ -1,0 +1,837 @@
+Brand Name,Type,Size,Brand Size,Chest(cm),Front Length(cm),Across Shoulder(cm)
+Roadster, Cotton,38, S,100.3,73.7,43.2
+Roadster, Cotton,40,M,107.4,74.7,45.2
+Roadster, Cotton,42,L,115.1,74.7,45.2
+Roadster, Cotton,44,XL,122.7,76.5,49
+Roadster, Cotton,46,XXL,130.3,82,50.8
+Roadster, Cotton,48,3XL,137.9,79.8,52.8
+WROGN, Cotton,39,S,104.1,71.1,40.6
+WROGN, Cotton,40,M,109.2,73.7,43.2
+WROGN, Cotton,42,L,115.6,74.4,45.2
+WROGN, Cotton,44,XL,121.9,77.5,47
+WROGN, Cotton,46,XXL,129.5,78.7,49
+WROGN,Polyster,39,S,107.4,73.7,41.9
+WROGN,Polyster,40,M,112.5,74.9,43.9
+WROGN,Polyster,42,L,117.6,76.2,45.7
+WROGN,Polyster,44,XL,122.7,77.5,47.8
+WROGN,Polyster,46,XXL,127.8,78.7,49.5
+Dennis Lingo, Cotton,38,S,99.1,71.1,43.2
+Dennis Lingo, Cotton,40,M,104.1,73.7,44.5
+Dennis Lingo, Cotton,42,L,109.2,74.9,45.7
+Dennis Lingo, Cotton,44,XL,114.3,76.2,47
+Dennis Lingo, Cotton,46,XXL,119.4,77.5,48.3
+Highlander, Cotton,39,S,104.1,73.7,47
+Highlander, Cotton,40,M,106.7,73.7,47.8
+Highlander, Cotton,42,L,111.8,74.9,49
+Highlander, Cotton,44,XL,116.8,76.2,50.3
+Highlander, Cotton,46,XXL,121.9,77.5,51.6
+Campus Sutra, Cotton,38,S,96.5,71.1,44.5
+Campus Sutra, Cotton,40,M,101.6,72.4,45.7
+Campus Sutra, Cotton,42,L,106.7,73.7,47
+Campus Sutra, Cotton,44,XL,111.8,76.2,48.3
+ The Indian Garage, Cotton,39,S,99.1,73.2,42.7
+ The Indian Garage, Cotton,40,M,104.1,74.9,44.5
+ The Indian Garage, Cotton,42,L,109.2,77,46.5
+ The Indian Garage, Cotton,44,XL,114.3,78.7,48.3
+ The Indian Garage, Cotton,46,XXL,119.4,79.5,50.3
+INVICTUS, Cotton,38,S,100.1,77.2,44.5
+INVICTUS, Cotton,39,M,102.9,77.2,45.2
+INVICTUS, Cotton,40,L,106.2,77.2,46
+INVICTUS, Cotton,42,XL,111.3,79,47.8
+INVICTUS, Cotton,44,XXL,119.3,79,49
+The Bear House, Cotton,38,S,99.1,73.7,42.7
+The Bear House, Cotton,40,M,101.6,74.7,44.2
+The Bear House, Cotton,42,L,106.7,75.9,45.2
+The Bear House, Cotton,44,XL,111.8,77,47
+The Bear House, Cotton,46,XXL,116.8,78.5,49.5
+United Colors of Benetto, Cotton,38,S,101.1,72.9,42.9
+United Colors of Benetto, Cotton,40,M,106.9,74.9,45
+United Colors of Benetto, Cotton,42,L,113,77,47
+United Colors of Benetto, Cotton,44,XL,119.1,79,49
+United Colors of Benetto, Cotton,46,EL,125,81,50
+United Colors of Benetto, Cotton,48,KL,131.1,83.1,52.1
+US POLO, Cotton,38, S,100.3,71.9,43.2
+US POLO, Cotton,40, M,106.2,73.7,45.7
+US POLO, Cotton,42,L,114.3,75.7,48.3
+US POLO, Cotton,44,XL,120.1,78.7,50.8
+US POLO, Cotton,46,XXL,128.3,80.3,54.1
+US POLO, Cotton,48,TXL,134.4,82.3,55.9
+LOCOMOTIVE, Cotton,39,S,106.7,74.9,45.7
+LOCOMOTIVE, Cotton,40,M,111.8,76.2,47.8
+LOCOMOTIVE, Cotton,42,L,116.8,77.5,49.5
+LOCOMOTIVE, Cotton,44,XL,121.9,101.6,50.3
+HERE & NOW, Cotton,38,S,100.3,73.7,43.2
+HERE & NOW, Cotton,40,M,107.4,74.9,45.2
+HERE & NOW, Cotton,42,L,115.1,74.9,47
+HERE & NOW, Cotton,44,XL,122.7,77,49
+HERE & NOW, Cotton,46,XXL,132.8,78.7,52.8
+Mast & Harbour, Cotton,38, S,100.3,73.7,43.2
+Mast & Harbour, Cotton,40,M,107.4,74.7,45.2
+Mast & Harbour, Cotton,42,L,115.1,74.7,47
+Mast & Harbour, Cotton,44,XL,122.7,76.5,49
+Peter England, Cotton,38,XS,104.1,72.4,41.9
+Peter England, Cotton,39,S,109.2,73.7,43.2
+Peter England, Cotton,40,M,114.3,74.9,44.5
+Peter England, Cotton,42,L,119.4,76.2,45.7
+Peter England, Cotton,44,XL,124.5,77.5,47
+Peter England, Cotton,46,XXL,129.5,78.7,48.3
+,,,,,,
+ , , , , , , 
+Peter England, Cotton,48,TXL,134.6,80,49.5
+Arrow Sport, Cotton,38,S,105.4,76.2,44.5
+Arrow Sport, Cotton,39,M,108,76.2,45.7
+Arrow Sport, Cotton,40,L,109.2,77.5,47
+Arrow Sport, Cotton,42,XL,114.3,77.5,48.3
+Arrow Sport, Cotton,44,XXL,121.9,80,49.5
+Arrow Sport, Cotton,46,TXL,129.5,81.3,52.1
+Arrow Sport, Cotton,48,FXL,137.2,81.3,54.6
+Wild West, Cotton,38,S,99.1,68.6,43.7
+Wild West, Cotton,40,M,104.1,69.8,45
+Wild West, Cotton,42,L,109.2,71.1,46.2
+Wild West, Cotton,44,XL,114.3,72.4,47.5
+Wild West, Cotton,46,XXL,119.4,73.7,48.8
+Wild West, Cotton,48,TXL,127,76.2,50
+Van Heusen Denim Labs, Cotton,38,XS,103.6,76.2,42.7
+Van Heusen Denim Labs, Cotton,39,S,108.7,77,44.5
+Van Heusen Denim Labs, Cotton,40,M,113.8,77.5,47
+Van Heusen Denim Labs, Cotton,42,L,118.9,78.2,49.5
+Van Heusen Denim Labs, Cotton,44,XL,124,78.7,52.1
+Van Heusen Denim Labs, Cotton,46,XXL,129,79.5,54.6
+Bene Kleed, Cotton,38,S,102.1,71.1,44.5
+Bene Kleed, Cotton,39,M,104.9,72.4,45.2
+Bene Kleed, Cotton,40,L,108,73.7,46
+Bene Kleed, Cotton,42,XL,115.6,74.9,47.5
+Bene Kleed, Cotton,44,XXL,122.9,76.2,49
+R&B, Cotton,38,S,91.4,68.1,39.9
+R&B, Cotton,40,M,99.1,70.6,41.9
+R&B, Cotton,42,L,106.7,73.2,43.9
+R&B, Cotton,44,XL,114.3,76.2,45.7
+R&B, Cotton,46,XXL,121.9,78.7,48.3
+JANISH, Cotton,36,XS,99.1,71.1,44.5
+JANISH, Cotton,38,S,104.1,72.4,45.7
+JANISH, Cotton,40,M,109.2,73.7,47
+JANISH, Cotton,42,L,114.3,74.9,48.3
+JANISH, Cotton,44,XL,119.4,74.9,50.8
+ H&M, Cotton,36,XS,83.8,83.8,
+ H&M, Cotton,38,S,92.2,92.2,
+ H&M, Cotton,40,M,100.3,100.3,
+ H&M, Cotton,42,L,108,108,
+ H&M, Cotton,44,XL,115.6,115.6,
+Van Heusen Sport, Cotton,38,XS,102.4,76.2,42.7
+Van Heusen Sport, Cotton,39,S,106.7,77.5,44.5
+Van Heusen Sport, Cotton,40,M,110.5,78.7,47
+Van Heusen Sport, Cotton,42,L,116.8,79.5,49.5
+Ether, Cotton,38, S,102.9,71.1,43.2
+Ether, Cotton,40, M,109.2,73.7,45.2
+Ether, Cotton,42, L,115.6,76.2,47
+Ether, Cotton,44,XL,121.4,78.7,49
+Nautica, Cotton,39,S,101.6,74.9,43.2
+Nautica, Cotton,40, M,109.2,76.2,45.7
+Nautica, Cotton,42, L,116.8,77.5,48.3
+Nautica, Cotton,44,XL,124.5,78.7,50.8
+Nautica, Cotton,46,XXL,134.6,80,54.1
+IVOC, Cotton,38, XS,102.4,72.1,45.2
+IVOC, Cotton,39,S,104.9,73.2,46
+IVOC, Cotton,40, M,108,74.2,46.7
+IVOC, Cotton,42,L,112.8,75.2,48.3
+IVOC, Cotton,44,XL,120.9,76.2,49.8
+V Mart, Cotton,38,S,99.1,67.3,40.6
+V Mart, Cotton,40,M,104.1,69.8,43.2
+V Mart, Cotton,42,L,109.2,72.4,45.7
+V Mart, Cotton,44,XL,116.8,74.9,48.3
+V Mart, Cotton,46,XXL,124.5,77.5,50.8
+V Mart, Cotton,48,TXL,132.1,80,53.3
+Harvard, Cotton,38,S,100.3,71.9,43.2
+Harvard, Cotton,40,M,106.2,72.4,45.7
+Harvard, Cotton,42,L,114.3,74.4,48.3
+Harvard, Cotton,44,XL,120.1,77.5,50.8
+Allen Solly, Cotton,38,XS,101.6,76.2,43.2
+Allen Solly, Cotton,39, S,106.7,76.2,43.2
+Allen Solly, Cotton,40,M,109.2,78.7,45.7
+Allen Solly, Cotton,42,L,116.8,78.7,48.3
+Allen Solly, Cotton,44,XL,121.9,78.7,50.8
+Allen Solly, Cotton,46,XXL,129.5,78.7,53.3
+Allen Solly, Cotton,48,TXL,134.6,78.7,55.9
+Tisbtane, Cotton,38,S,96.5,73.7,40.6
+Tisbtane, Cotton,40,M,101.6,74.9,43.2
+Tisbtane, Cotton,42,L,106.7,76.2,45.7
+Tisbtane, Cotton,44,XL,111.8,76.5,48.3
+Tisbtane, Cotton,46,XXL,116.8,78.2,50.8
+Tisbtane, Cotton,48,TXL,121.9,80,52.1
+Levis, Cotton,38,S,100.3,72.4,43.2
+Levis, Cotton,40,M,108,74.9,45.7
+Levis, Cotton,42,L,115.6,77.5,47.8
+Levis, Cotton,44,XL,123.2,80,49.5
+Levis, Cotton,46,TWOXL,130.8,81.3,52.1
+Sztori, Cotton,46,XXL,129.5,78.7,50.3
+Sztori, Cotton,48,TXL,134.6,79.8,52.1
+Sztori, Cotton,50,FOXL,139.7,80.8,54.1
+Sztori, Cotton,52,FXL,146.1,81.5,55.9
+Sztori, Cotton,54,SXL,152.4,82.5,57.9
+Hancock, Cotton,38,S,104.1,73.7,44.5
+Hancock, Cotton,40,M,109.2,76.2,47
+Hancock, Cotton,42,L,114.3,78.7,49.5
+Hancock, Cotton,44,XL,121.9,81.3,52.1
+Park Avenue, Cotton,39, S,104.9,76.5,46.2
+Park Avenue, Cotton,40,M,108,77,47
+Park Avenue, Cotton,42,L,114,78,48.5
+Park Avenue, Cotton,44,XL,119.9,79,50
+Park Avenue, Cotton,46,XXL,126,80,51.6
+Black Berry, Cotton,38, S,103.9,75.9,43.9
+Black Berry, Cotton,39,M,106.9,76.5,45
+Black Berry, Cotton,40,L,110,77,46
+Black Berry, Cotton,42,XL,116.1,78,47.5
+Black Berry, Cotton,44, XXL,124,79,49
+Black Berry, Cotton,46,TXL,132.1,80,50
+Forever , Cotton,38,XS,94,69.8,43.2
+Forever , Cotton,39,S,96.5,71.1,44.5
+Forever , Cotton,40,M,101.6,72.4,45.7
+Forever , Cotton,41,L,106.7,73.7,47
+Forever , Cotton,42,XL,111.8,74.9,48.3
+Forever , Cotton,43,XXL,116.8,76.2,49.5
+Tommy Hilfiger, Cotton,38,XS,101.6,67.3,43.2
+Tommy Hilfiger, Cotton,39,S,105.9,68.6,43.2
+Tommy Hilfiger, Cotton,40,M,112,68.8,47.5
+Tommy Hilfiger, Cotton,42,L,118.1,71.1,49.5
+Tommy Hilfiger, Cotton,46,XL,126,73.7,51.6
+Tommy Hilfiger, Cotton,48,XXL,134.6,73.7,53.6
+Raymond, Cotton,39,S,106.9,67.8,45.2
+Raymond, Cotton,40,M,110,68.3,46
+Raymond, Cotton,42,L,116.1,69.1,47.5
+Raymond, Cotton,44,XL,121.9,69.8,49
+Raymond, Cotton,46,XXL,128,70.6,50.5
+Shaftesbury London, Cotton,36,XS,106.7,71.1,43.2
+Shaftesbury London, Cotton,38, S,111.8,73.7,45.7
+Shaftesbury London, Cotton,40,M,116.8,76.2,47
+Shaftesbury London, Cotton,42,L,121.9,78.7,48.3
+Shaftesbury London, Cotton,44,XL,127,81.3,50.8
+Shaftesbury London, Cotton,46,XXL,137.2,83.8,53.3
+Shaftesbury London, Cotton,48,TXL,142.2,86.4,54.6
+Shaftesbury London, Cotton,50,FXL,147.3,87.6,55.9
+Shaftesbury London, Cotton,52,FIXL,152.4,88.9,57.1
+Shaftesbury London, Cotton,54,SXL,157.5,90.2,58.4
+Dennison, Cotton,38,S,101.6,74.9,43.2
+Dennison, Cotton,40,M,106.7,77.5,45.7
+Dennison, Cotton,42,L,111.8,80,47
+Dennison, Cotton,44,XL,116.8,81.3,49.5
+Sojanya, Cotton,36, XS,99.1,71.1,44.5
+Sojanya, Cotton,38,S,104.1,72.4,45.7
+Sojanya, Cotton,40,M,109.2,73.7,47
+Sojanya, Cotton,42,L,114.3,74.9,48.3
+Sojanya, Cotton,44,XL,119.4,74.9,50.8
+SELECTED, Cotton,38,S,102.1,69.3,45.5
+SELECTED, Cotton,40,M,105.9,70.9,46.7
+SELECTED, Cotton,42,L,110,72.4,48
+SELECTED, Cotton,44,XL,116.1,73.9,50.5
+SELECTED, Cotton,46,XXL,121.9,75.4,53.1
+English Navy, Cotton,38,S,104.1,73.7,44.5
+English Navy, Cotton,40,M,109.2,76.2,47
+English Navy, Cotton,42,L,116.8,78.7,49.5
+English Navy, Cotton,44,XL,121.9,81.3,52.1
+Nirvaan, Cotton,38,S,96.5,73.7,40.6
+Nirvaan, Cotton,40,M,101.6,73.7,41.9
+Nirvaan, Cotton,42,L,106.7,73.7,43.2
+Nirvaan, Cotton,44,XL,111.8,73.7,45.7
+Code By Lifestyle, Cotton,39,S,94.7,68.1,40.9
+Code By Lifestyle, Cotton,40,M,99.8,69.8,42.9
+Code By Lifestyle, Cotton,42,L,104.9,71.9,45.2
+Code By Lifestyle, Cotton,44,XL,110,73.9,47
+Code By Lifestyle, Cotton,46,XXL,115.1,75.9,49
+Code By Lifestyle, Cotton,48,TXL,120.4,77.5,51.3
+Identiti, Cotton,38,S,99.1,72.4,43.9
+Identiti, Cotton,40,M,106.7,73.7,45.7
+Identiti, Cotton,42,L,114.3,76.2,47.8
+Identiti, Cotton,44,XL,121.9,78.7,49.5
+Identiti, Cotton,46,XXL,129.5,81.3,51.6
+ Harvard, Cotton,38,S,100.3,71.9,43.2
+ Harvard, Cotton,40,M,106.2,72.4,45.7
+ Harvard, Cotton,42,L,114.3,74.4,48.3
+ Harvard, Cotton,44,XL,120.1,77.5,50.8
+Soratia, Cotton,36,S,91.4,72.4,44.5
+Soratia, Cotton,38,M,96.5,73.7,45.7
+Soratia, Cotton,40,L,101.6,74.9,47
+Soratia, Cotton,42,XL,106.7,76.2,48.3
+Soratia, Cotton,44,XXL,111.8,77.5,50.8
+Parx, Cotton,38,S,103.9,74.4,45
+Parx, Cotton,39,M,106.9,74.9,46
+Parx, Cotton,40,L,110,75.4,47
+Parx, Cotton,42,XL,116.1,76.5,49
+Green Fibre, Cotton,38,S,101.6,71.1,43.2
+Green Fibre, Cotton,39,M,104.1,72.4,43.9
+Green Fibre, Cotton,40,L,109.2,72.4,43.9
+Green Fibre, Cotton,42,XL,114.3,74.9,47.8
+Green Fibre, Cotton,44,XXL,119.4,76.2,49
+Basics, Cotton,38,XS,96.5,69.3,40.6
+Basics, Cotton,39,S,104.1,70.6,44.5
+Basics, Cotton,40,M,111.8,71.9,47
+Basics, Cotton,42,L,119.4,74.4,49.5
+Basics, Cotton,44,XL,127,77,52.1
+Basics, Cotton,46,XXL,134.6,78.2,54.6
+Basics, Cotton,48,TXL,142.2,79.5,57.1
+Color Plus, Cotton,39,S,106.7,77,44.5
+Color Plus, Cotton,40,M,111.8,78.7,47
+Color Plus, Cotton,42,L,121.9,80,50
+Color Plus, Cotton,44,XL,132.1,81.3,53.3
+AD by Aravimdh, Cotton,39,S,100.3,77.5,43.2
+AD by Aravimdh, Cotton,40,M,105.4,78.7,44.5
+AD by Aravimdh, Cotton,42,L,110.5,80,47
+AD by Aravimdh, Cotton,44,XL,115.6,81.3,48.3
+Arrow Newyork, Cotton,38,XS,105.4,76.2,44.5
+Arrow Newyork, Cotton,39,S,108,76.2,45.7
+Arrow Newyork, Cotton,40,M,109.2,77.5,47
+Arrow Newyork, Cotton,42,L,114.3,77.5,48.3
+Arrow Newyork, Cotton,44,XL,119.4,80,49.5
+Arrow Newyork, Cotton,46,XXL,139.7,81.3,54.6
+Arrow Newyork, Cotton,48,TXL,144.8,81.3,57.1
+Arrow Newyork, Cotton,50,FXL,149.9,81.3,59.7
+Arrow Newyork, Cotton,52,FIXL,160,83.8,62.2
+Andamen, Cotton,39,S,105.9,72.9,45.5
+Andamen, Cotton,40,M,110,75.4,47.5
+Andamen, Cotton,42,L,116.1,78,49.5
+Andamen, Cotton,44,XL,121.9,80,51.6
+Andamen, Cotton,46,XXL,128,82.5,53.6
+American Eagle, Cotton,35,XS,88.9,73.7,44.5
+American Eagle, Cotton,38,S,96.5,74.9,45.7
+American Eagle, Cotton,39,M,104.1,76.2,47
+American Eagle, Cotton,40,L,111.8,77.5,48.3
+American Eagle, Cotton,42,XL,116.8,78.7,49.5
+American Eagle, Cotton,44,XXL,124.5,80,50.8
+abof, Cotton,40,S,101.6,73.7,33.5
+abof, Cotton,42,M,106.7,73.7,35.1
+abof, Cotton,44,L,111.8,73.7,36.6
+abof, Cotton,47,XL,119.4,73.7,38.6
+Antony Morato, Cotton,35,XXS,88.9,74.9,43.7
+Antony Morato, Cotton,37,XS,94,77,45
+Antony Morato, Cotton,39,S,99.1,77.5,46.2
+Antony Morato, Cotton,41,M,104.1,78,47.5
+Antony Morato, Cotton,43,L,109.2,80,48.8
+Anuok, Cotton,38,S,100.3,73.7,43.2
+Anuok, Cotton,40,M,107.4,74.7,45.2
+Anuok, Cotton,42,L,115.1,74.7,47
+Anuok, Cotton,44,XL,122.7,76.5,49
+Anuok, Cotton,46,XXL,132.8,78.5,52.1
+Amrut Varsha Creation, Cotton,42,M,106.7,76.2,44.5
+Amrut Varsha Creation, Cotton,44,L,111.8,77.5,45.7
+Amrut Varsha Creation, Cotton,46,XL,116.8,78.7,47
+Amrut Varsha Creation, Cotton,48,XXL,121.9,80,48.3
+Amrut Varsha Creation, Cotton,50,TXL,127,81.3,49.5
+Amrut Varsha Creation, Cotton,52,FXL,132.1,82,50
+Amrut Varsha Creation, Cotton,54,FIXL,137.2,82.5,52.1
+ANFOLD, Cotton,35,XS,91.4,69.8,43.2
+ANFOLD, Cotton,38,S,99.1,69.8,43.2
+ANFOLD, Cotton,42,M,109.2,72.4,44.5
+ANFOLD, Cotton,44,L,114.3,73.7,45.7
+ANFOLD, Cotton,45,XL,116.8,74.9,47
+ANFOLD, Cotton,47,XXL,119.4,77.5,48.3
+ANFOLD, Cotton,51,TXL,132.1,77.5,52.1
+ANFOLD, Cotton,54,FXL,137.2,81.3,54.6
+ANFOLD, Cotton,56,FIXL,142.2,82.5,55.9
+ American Bull, Cotton,39,S,99.1,73.7,43.2
+ American Bull, Cotton,40,M,104.1,74.9,44.5
+ American Bull, Cotton,42,L,109.2,76.2,45.7
+ American Bull, Cotton,44,XL,116.8,77.5,47.8
+ American Bull, Cotton,46,XXL,124.5,80,49.5
+Allen Solly Tribe, Cotton,38,S,102.1,74.9,41.9
+Allen Solly Tribe, Cotton,39,M,106.2,76.2,44.5
+Allen Solly Tribe, Cotton,40,L,110.5,77.5,47
+Allen Solly Tribe, Cotton,42,XL,116.8,78.2,49.5
+A okay, Cotton,38,S,96.5,73.7,40.6
+A okay, Cotton,40,M,101.6,76.2,43.2
+A okay, Cotton,42,L,106.7,78.7,45.7
+Armisto, Cotton,36,S,100.3,68.6,43.2
+Armisto, Cotton,38,M,107.4,69.8,44.5
+Armisto, Cotton,40,L,115.1,76.2,45.7
+Armisto, Cotton,42,XL,122.7,77.5,47
+Armisto, Cotton,44,XXL,125,78.7,48.3
+American Swan, Cotton,38,S,102.9,69.8,43.2
+American Swan, Cotton,40,M,108,72.4,45.2
+American Swan, Cotton,42,L,113,74.9,45.7
+American Swan, Cotton,44,XL,118.1,77.5,47.8
+American Swan, Cotton,46,XXL,123.2,80,48.3
+Aazing London, Cotton,33,XS,88.9,67.3,41.9
+Aazing London, Cotton,35,S,94,68.6,43.2
+Aazing London, Cotton,37,M,99.1,69.8,44.5
+Aazing London, Cotton,39,L,104.1,71.1,45.7
+Aazing London, Cotton,41,XL,109.2,72.4,47
+Aazing London, Cotton,43,XXL,114.3,73.7,48.3
+Aesthetic Bodies, Cotton,36,XS,91.4,69.8,54.6
+Aesthetic Bodies, Cotton,38,S,96.5,69.8,54.6
+Aesthetic Bodies, Cotton,40,M,101.6,71.1,54.6
+Aesthetic Bodies, Cotton,42,L,106.7,71.1,55.9
+Aesthetic Bodies, Cotton,44,XL,111.8,73.7,55.9
+Beat London, Cotton,38,S,103.9,64,41.9
+Beat London, Cotton,40,M,108,66,43.9
+Beat London, Cotton,42,L,112,68.1,46
+Beat London, Cotton,44,XL,116.1,70.1,48
+Beat London, Cotton,46,XXL,119.9,71.4,50
+Beat London, Cotton,48,TXL,124,72.9,52.1
+Being Human, Cotton,38,S,102.9,73.4,43.2
+Being Human, Cotton,40,M,106.9,74.9,43.9
+Being Human, Cotton,42,L,110,76.5,45.2
+Being Human, Cotton,44,XL,116.1,78,48.3
+Being Human, Cotton,46,XXL,120.9,79.5,49.5
+Byford By Pantaloons, Cotton,38,S,102.9,74.9,44.5
+Byford By Pantaloons, Cotton,39,M,105.4,75.7,45.2
+Byford By Pantaloons, Cotton,40,L,108,76.2,45.7
+Byford By Pantaloons, Cotton,42,XL,113,77.5,47
+Byford By Pantaloons, Cotton,44,XXL,119.4,78.7,48.5
+Brunn & Stengade, Cotton,38, XS,102.9,74.9,44.5
+Brunn & Stengade, Cotton,39, S,105.4,75.7,45.2
+Brunn & Stengade, Cotton,40,M,108,76.2,45.7
+Brunn & Stengade, Cotton,42,L,113,77.5,47
+Brunn & Stengade, Cotton,44,XL,119.4,78.7,48.5
+Black Coffe, Cotton,39,S,103.9,75.9,44.2
+Black Coffe, Cotton,40,M,108,77,46.2
+Black Coffe, Cotton,42,L,112,78,48.3
+Black Coffe, Cotton,44,XL,118.1,79,52.3
+Bawerin, Cotton,38,M,101.6,71.1,44.5
+Bawerin, Cotton,40,L,106.7,72.4,45.7
+Bawerin, Cotton,42,XL,11.8,73.7,47
+Bawerin, Cotton,44,XXL,116.8,74.9,48.3
+BigBanana, cotton,49,XXL,128,69.1,49.8
+BigBanana, cotton,51,TXL,134.1,71.1,50.8
+BigBanana, cotton,54,FXL,140.2,73.2,52.8
+BigBanana, cotton,56,FIXL,146.3,75.2,54.9
+BigBanana, cotton,58,SXL,152.4,77.1,56.9
+BigBanana, cotton,60,SEXL,158.5,79.2,58.9
+Bushirt, cotton,40,M,106.7,70.6,45.7
+Bushirt, cotton,42,L,111.8,72.4,47.8
+Bushirt, cotton,44,XL,116.8,74.4,49.5
+Bushirt, cotton,46,XXL,121.9,76.2,51.6
+Bossini, cotton,38,XS,97.8,70.4,42.2
+Bossini, cotton,39,S,102.9,72.1,43.9
+Bossini, cotton,40,M,108,73.9,45.7
+Bossini, cotton,42,L,113,76.2,47.2
+Bossini, cotton,44,XL,119.1,76.5,49.5
+Bossini, cotton,46,XXL,121.7,77,51.6
+Bene Kleed Plus, cotton,46,TXL,133.3,78.7,53.3
+Bene Kleed Plus, cotton,48,FXL,138.4,80,54.6
+Bene Kleed Plus, cotton,50,FIXL,143.5,81.3,55.9
+Bene Kleed Plus, cotton,52,SXL,148.6,82,57.9
+Bedgasm, Cotton,38,S,99.1,74.9,37.1
+Bedgasm, Cotton,40,M,111.8,76.2,38.1
+Bedgasm, Cotton,42,L,121.9,78.7,38.6
+Bedgasm, Cotton,44,XL,132.1,78.7,43.9
+Blamblack, Cotton,38,S,109.2,68.6,44.5
+Blamblack, Cotton,40,M,114.3,71.1,45.7
+Blamblack, Cotton,42,L,119.4,73.7,47
+Blamblack, Cotton,44,XL,124.5,76.2,48.3
+Blamblack, Cotton,46,XXL,129.5,78.7,49.5
+Break Bounce, Cotton,38,S,106.7,71.1,44.5
+Break Bounce, Cotton,40,M,111.8,73.7,45.7
+Break Bounce, Cotton,42,L,114.3,76.2,47
+Break Bounce, Cotton,44,XL,116.8,78.7,48.3
+Break Bounce, Cotton,46,XXL,119.4,80,49.5
+Balista, Cotton,38,S,106.2,73.4,45.7
+Balista, Cotton,40,M,116.3,75.9,47.8
+Balista, Cotton,42,L,121.4,78.5,48.3
+Balista, Cotton,44,XL,126.5,81,50.3
+Bewakoof, cotton,38,S,104.1,77.5,43.2
+Bewakoof, cotton,40,M,106.7,78.7,45.2
+Bewakoof, cotton,42,L,111.8,80,47
+Bewakoof, cotton,44,XL,116.8,81.3,48.3
+Bewakoof, cotton,46,XXL,121.9,82.5,49.5
+Bewakoof, cotton,48,TXL,124.5,83.8,50.8
+British club, cotton,36,S,101.6,72.4,43.2
+British club, cotton,38,M,108,76.2,45.7
+British club, cotton,40,L,111.8,78.2,47.8
+British club, cotton,42,XL,115.6,80,49.5
+British club, cotton,44,XXL,119.4,82,51.6
+Braclo, Cotton,38,S,96.5,68.6,41.9
+Braclo, Cotton,40,M,101.6,69.8,43.2
+Braclo, Cotton,42,L,106.7,71.1,44.5
+Braclo, Cotton,44,XL,111.8,72.4,45.7
+Braclo, Cotton,46,XXL,116.8,75.9,47
+Cavallo By LInen, Cotton,39, S,104.1,76.2,45.7
+Cavallo By LInen, Cotton,40, M,114.3,78,47
+Cavallo By LInen, Cotton,42, L,119.9,79.8,48.5
+Cavallo By LInen, Cotton,44,XL,128,81.8,49.8
+Canary Lodon, Cotton,36,S,97.8,69.8,41.9
+Canary Lodon, Cotton,38,M,102.9,71.1,43.9
+Canary Lodon, Cotton,40,L,108,73.7,45.7
+Canary Lodon, Cotton,42,XL,111.8,74.9,48.3
+Canary Lodon, Cotton,44,XXL,115.6,76.2,49.5
+Cantabil, Cotton,38,S,102.9,69.8,43.2
+Cantabil, Cotton,40,M,109.2,71.1,45.2
+Cantabil, Cotton,42,L,116.8,72.4,47
+Cantabil, Cotton,44,XL,127,77.5,50.3
+Celio, Cotton,38, S,102.9,69.8,43.2
+Celio, Cotton,40, M,109.2,71.1,45.2
+Celio, Cotton,42, L,116.8,72.4,47
+Celio, Cotton,44,XL,127,77.5,50.3
+Crocodile, Cotton,38,S,101.6,71.1,45.7
+Crocodile, Cotton,40,M,109.2,73.7,47
+Crocodile, Cotton,42,L,116.8,76.2,48.3
+Crocodile, Cotton,44,XL,124.5,78.7,50.8
+Crocodile, Cotton,46,XXL,132.1,81.3,53.3
+Crimsoune Cloub, Cotton,38,S,96.5,69.8,40.6
+Crimsoune Cloub, Cotton,39,M,101.6,72.4,43.2
+Crimsoune Cloub, Cotton,40,L,106.7,73.7,45.7
+Crimsoune Cloub, Cotton,42,XL,114.3,74.9,48.3
+Crimsoune Cloub, Cotton,44,XXL,121.9,78.7,50.8
+Cape Canary, Cotton,39,M,106.9,73.2,43.2
+Cape Canary, Cotton,40,L,113,74.9,45.2
+Cape Canary, Cotton,42,XL,118.9,77,47
+Cape Canary, Cotton,44,XXL,125,80,49
+Chennis, Cotton,39,S,108,75.7,45.2
+Chennis, Cotton,40,M,111.8,77.5,46.5
+Chennis, Cotton,42,L,116.8,78.2,49
+Chennis, Cotton,44,XL,121.9,79.5,50.3
+Chennis, Cotton,46,XXL,127,80,51.6
+Calvin Klein Jeans, Cotton,38,S,104.1,76.2,44.5
+Calvin Klein Jeans, Cotton,40,M,109.2,77.5,47.8
+Calvin Klein Jeans, Cotton,42,L,116.8,78.7,50
+Calvin Klein Jeans, Cotton,44,XL,124.5,78.7,50.8
+Calvin Klein Jeans, Cotton,45,XXL,127,81.3,53.3
+Chkokko, Cotton,39,S,101.6,73.7,44.5
+Chkokko, Cotton,40,M,106.7,73.7,45.7
+Chkokko, Cotton,42,L,111.8,74.9,47
+Chkokko, Cotton,44,XL,116.8,74.9,48.3
+Cobb, Cotton,36,S,99.1,69.8,45.7
+Cobb, Cotton,40,M,109.2,72.4,48.3
+Cobb, Cotton,42,L,116.8,73.7,49.5
+Cobb, Cotton,44,XL,121.9,74.9,50.8
+Cobb, Cotton,46,XXL,127,76.2,52.4
+Club York, Cotton,37,S,94,66,40.6
+Club York, Cotton,39,M,99.1,68.6,43.2
+Club York, Cotton,41,L,104.1,71.1,45.7
+Club York, Cotton,43,XL,109.2,73.7,48.3
+Club York, Cotton,45, XXL,114.3,76.2,50.8
+Cherokke, Cotton,38,S,102.9,74.9,44.5
+Cherokke, Cotton,40,M,108,76.2,45.7
+Cherokke, Cotton,42,L,113,78.7,48.3
+Cherokke, Cotton,44,XL,120.7,81.3,49.5
+Cherokke, Cotton,46,XXL,128.3,82.5,52.1
+Copperline, Cotton,38,S,109.2,67.3,44.5
+Copperline, Cotton,40,M,111.8,69.8,47
+Copperline, Cotton,42,L,114.3,72.4,49.5
+Copperline, Cotton,44,XL,116.8,74.9,50.8
+Classic Polo , Cotton,36,S,43.9,71.4,40.4
+Classic Polo , Cotton,38,M,47.8,72.9,42.4
+Classic Polo , Cotton,40,L,51.6,74.4,44.7
+Classic Polo , Cotton,42,XL,54.6,76.2,46.5
+Classic Polo , Cotton,44,XXL,57.7,77.5,48.3
+Classic Polo , Cotton,46,TXL,61.5,78.7,50.8
+Columbia, Cotton,40,S,109.2,76.2,43.2
+Columbia, Cotton,42,M,116.8,78.7,45.7
+Columbia, Cotton,44,L,121.9,81.3,48.3
+Columbia, Cotton,46,XL,129.5,83.8,50.8
+Columbia, Cotton,48,XXL,134.5,86.4,53.3
+Colvynharris, Cotton,38,M,101.6,71.1,44.5
+Colvynharris, Cotton,40,L,106.7,73.7,45.7
+Colvynharris, Cotton,42,XL,111.8,76.2,47
+Colt, Cotton,38,S,102.9,74.9,44.5
+Colt, Cotton,40,M,108,76.2,45.7
+Colt, Cotton,42,L,113,78.7,48.3
+Colt, Cotton,44,XL,120.7,81.3,49.5
+Colt, Cotton,46,XXL,128.3,82.5,52.1
+Croydon, Cotton,38,S,101.6,72.4,45.7
+Croydon, Cotton,40,M,109.2,73.7,47
+Croydon, Cotton,42,L,119.4,76.2,48.3
+Croydon, Cotton,44,XL,129.5,78.7,50.8
+Canoe, Cotton,38,S,104.1,74.9,43.2
+Canoe, Cotton,40,M,109.2,76.2,45.7
+Canoe, Cotton,42,L,116.8,76.2,48.3
+Canoe, Cotton,44,XL,124.5,78.7,48.3
+Canoe, Cotton,46,XXL,132.1,81.3,50.8
+Croydon Uk, Cotton,38,S,101.6,72.4,45.7
+Croydon Uk, Cotton,40,M,109.2,73.7,47
+Croydon Uk, Cotton,42,L,119.4,76.2,48.3
+Croydon Uk, Cotton,44,XL,129.5,78.7,50.8
+ Camla, Cotton,39,S,99.1,71.1,43.9
+ Camla, Cotton,40,M,104.1,72.4,45.7
+ Camla, Cotton,42,L,109.1,73.7,47.8
+ Camla, Cotton,44,XL,114.3,74.9,49
+ Camla, Cotton,46,XXL,119.4,77.5,50.3
+ Cross Court, Cotton,38,S,101.6,71.1,41.9
+ Cross Court, Cotton,40,M,106.7,73.7,43.2
+ Cross Court, Cotton,42,L,114.3,74.9,45.7
+ Cross Court, Cotton,44,XL,118.1,76.2,47
+Callno Lodon, Cotton,38,XS,104.1,71.1,44.7
+Callno Lodon, Cotton,39,S,105.7,72.6,45.7
+Callno Lodon, Cotton,40,M,110.7,73.7,46.7
+Callno Lodon, Cotton,42,L,115.8,75.2,48.8
+Callno Lodon, Cotton,44,XL,120.9,76.7,51.8
+Callno Lodon, Cotton,46,XXL,126,78.2,54.9
+D Kumar, Cotton,38,M,1067,76.2,45.7
+D Kumar, Cotton,40,L,111.8,77.5,47
+D Kumar, Cotton,42,XL,116.8,78.7,48.3
+D Kumar, Cotton,44,XXL,121.9,78.7,49.5
+Dillinger, cotton,38,S,101.6,72.4,41.9
+Dillinger, cotton,40,M,106.7,74.9,44.5
+Dillinger, cotton,42,L,111.8,76.2,47
+Dillinger, cotton,44,XL,116.8,77.5,49.5
+Dillinger, cotton,46,XXL,121.9,78.7,52.1
+Dejano, cotton,38,S,97.8,69.8,39.4
+Dejano, cotton,40,M,102.9,72.4,41.9
+Dejano, cotton,42,L,108,74.9,44.5
+Dejano, cotton,44,XL,113,77.5,47
+Dejano, cotton,46, XXL,118.1,78.7,49.5
+Don Vino, cotton,39, S,106.7,74.4,43.9
+Don Vino, cotton,40,M,111.8,75.4,45
+Don Vino, cotton,42,L,116.8,77,47
+Don Vino, cotton,44, XL,126,79,50
+Ducati, cotton,38,S,101.6,73.7,44.2
+Ducati, cotton,40, M,106.7,74.9,45.7
+Ducati, cotton,42, L,113.8,76.5,48
+Ducati, cotton,44,XL,120.7,78.2,50.3
+Ducati, cotton,46,XXL,128.3,80,52.3
+Double Two, cotton,38,S,101.6,73.7,44.2
+Double Two, cotton,40,M,106.7,74.9,45.7
+Double Two, cotton,42,L,113.8,76.5,48
+Double Two, cotton,44,XL,120.7,78.2,50.3
+Double Two, cotton,46,XXL,128.3,80,52.3
+Donzell, Cotton,38,S,108,73.9,46
+Donzell, Cotton,40,M,110,74.9,47
+Donzell, Cotton,42,L,114,74.9,48
+Donzell, Cotton,43,XL,122.7,77,50
+Donzell, Cotton,44,XXL,130,79,52.1
+Dcot By Donear, Cotton,44,XXL,116.8,78.7,50.8
+Dcot By Donear, Cotton,46,TXL,127,80,53.3
+Disrupt, Cotton,40.5,S,102.9,70.6,43.2
+Disrupt, Cotton,42.5,M,108,72.4,45.2
+Disrupt, Cotton,44.5,L,113,74.4,47
+Disrupt, Cotton,46,XL,118.1,76.2,49
+Drean of Glory INC , Cotton,36,XS,91.2,66,40.9
+Drean of Glory INC , Cotton,38,S,96.5,67.3,42.4
+Drean of Glory INC , Cotton,40,M,101.6,68.6,43.9
+Drean of Glory INC , Cotton,42,L,106.7,71.1,45.5
+Drean of Glory INC , Cotton,44,XL,111.8,73.7,47
+Drean of Glory INC , Cotton,46,XXL,116.8,76.2,48.5
+Drean of Glory INC , Cotton,48,TXL,121.9,77.5,49.5
+Drean of Glory INC , Cotton,50,FXL,127,78.7,50.5
+Drean of Glory INC , Cotton,52,FIXL,132.4,81.3,51.6
+Drean of Glory INC , Cotton,54,SIXL,137.2,83.6,52.6
+Drean of Glory INC , Cotton,56,SEXL,142.2,85.1,53.1
+Drean of Glory INC , Cotton,58,EXL,147.3,86.4,53.6
+Drean of Glory INC , Cotton,60,NXL,152.4,87.6,54.1
+Denimize by Fame Forever, Cotton,38,S,100.3,72.9,43.2
+Denimize by Fame Forever, Cotton,40,M,105.4,76.2,45
+Denimize by Fame Forever, Cotton,42,L,110.5,78.7,48.3
+Denimize by Fame Forever, Cotton,44,XL,115.6,81.3,50.8
+Denimize by Fame Forever, Cotton,46,XXL,120.7,83.8,53.3
+English Navy, Cotton,38,S,104.1,71.1,44.5
+English Navy, Cotton,40,M,109.2,73.7,47
+English Navy, Cotton,42,L,116.8,76.2,49.5
+English Navy, Cotton,44,XL,121.9,78.7,52.1
+excalibur, Cotton,39,S,109,76.2,45.7
+excalibur, Cotton,40,M,111.8,76.2,47
+excalibur, Cotton,42,L,119.4,76.2,49.5
+excalibur, Cotton,44,XL,125.7,78.7,53.3
+excalibur, Cotton,46,XXL,129.5,78.7,54.6
+Encore By Invictus, Cotton,38,XS,100.1,77.1,44.5
+Encore By Invictus, Cotton,39,S,102.9,77.1,45.2
+Encore By Invictus, Cotton,40,M,106.2,77.1,46
+Encore By Invictus, Cotton,42,L,111.3,79,47.8
+Encore By Invictus, Cotton,44,XL,119.1,79,49
+Estela, Cotton,39,S,101.6,73.7,44.5
+Estela, Cotton,40,M,106.7,74.9,45.7
+Estela, Cotton,42,L,111.8,76.2,47
+Estela, Cotton,44,XL,116.8,77.5,48.3
+Ecentric, Cotton,38,S,101.1,72.4,43.2
+Ecentric, Cotton,40,M,107.2,73.7,45.2
+Ecentric, Cotton,41,L,113.3,75.9,47
+Ecentric, Cotton,44,XL,119.1,79.2,48.5
+Ecentric, Cotton,46,XXL,125.2,80,49.8
+Even, Cotton,36,S,101.6,72.4,45.7
+Even, Cotton,38,M,106.7,73.7,47
+Even, Cotton,40,L,113,73.7,48.3
+Even, Cotton,42, XL,118.1,74.9,49.5
+Even, Cotton,44,XXL,127,76.2,50.8
+Evooq, Cotton,38,M,106.7,71.1,45.2
+Evooq, Cotton,40,L,111.8,71.9,46.5
+Evooq, Cotton,42,XL,116.8,72.4,47.8
+Evooq, Cotton,44,XXL,121.9,73.7,49
+Emerals, Cotton,38,S,97.8,74.9,40.6
+Emerals, Cotton,40,M,102.9,76.2,41.9
+Emerals, Cotton,42,L,108,77.5,44.5
+Emerals, Cotton,44,XL,113,78.7,45.7
+Ethnix By Raymond, Cotton,39,S,109,75.9,45.2
+Ethnix By Raymond, Cotton,40,M,112,76.5,46
+Ethnix By Raymond, Cotton,42,L,118.1,77.5,47.5
+Ethnix By Raymond, Cotton,44,XL,126,78.5,49.5
+Eppe , Cotton,38,S,106.7,69.8,45.7
+Eppe , Cotton,40,M,111.8,72.4,47
+Eppe , Cotton,42,L,116.8,74.9,48.3
+Eppe , Cotton,44,XL,124.5,77.5,52.4
+ ElaBaroda, Cotton,38,S,96.5,67.3,41.4
+ ElaBaroda, Cotton,40,M,101.6,69.8,43.2
+ ElaBaroda, Cotton,42,L,106.7,72.4,45.2
+ ElaBaroda, Cotton,44,XL,111.8,74.9,47
+ ElaBaroda, Cotton,46,XXL,116.8,77.5,49
+Flying Machine, Cotton,38,S,100.3,71.1,43.2
+Flying Machine, Cotton,40,M,105.4,73.7,45.7
+Flying Machine, Cotton,42,L,114.3,76.2,48.3
+Flying Machine, Cotton,44,XL,119.4,78.7,50.8
+Flying Machine, Cotton,46,XXL,128.3,80,53.3
+Flying Machine, Cotton,48,TXL,133.3,82.5,57.1
+Fame Forever By Lifestyle, Cotton,40,S,94.7,68.1,40.9
+Fame Forever By Lifestyle, Cotton,42,M,99.8,69.8,42.9
+Fame Forever By Lifestyle, Cotton,44,L,104.9,71.9,45.2
+Fame Forever By Lifestyle, Cotton,46,XL,110,73.9,47
+Fame Forever By Lifestyle, Cotton,48,XXL,115.1,75.9,49
+Forca, Cotton,38,XS,89.7,66.3,38.9
+Forca, Cotton,39,S,94.7,68.1,40.9
+Forca, Cotton,40,M,99.8,69.8,42.9
+Forca, Cotton,42,L,104.9,71.9,45.2
+Forca, Cotton,44,XL,110,73.9,47
+Forca, Cotton,46,XXL,115.1,75.9,49
+Fashion Fricks, Cotton,38,M,96.5,76.2,38.1
+Fashion Fricks, Cotton,40,L,101.6,81.3,39.4
+Fashion Fricks, Cotton,42,XL,106.7,81.3,40.6
+French Connection, Cotton,38,S,101.6,71.1,43.2
+French Connection, Cotton,40,M,106.7,73.7,45.7
+French Connection, Cotton,42,L,111.8,76.2,45.7
+French Connection, Cotton,44,XL,116.8,78.7,48.3
+French Connection, Cotton,46,XXL,127,81.3,50.8
+Fubar, Cotton,38,M,104.1,71.1,44.5
+Fubar, Cotton,40,L,109.2,72.4,47
+Fubar, Cotton,42,XL,114.3,73.7,48.3
+Forcaz By Decathlon, Cotton,38,S,99.1,71.1,43.2
+Forcaz By Decathlon, Cotton,40,M,104.1,73.7,44.5
+Forcaz By Decathlon, Cotton,42,L,109.2,76.2,45.7
+Forcaz By Decathlon, Cotton,44, XL,114.3,78.7,47
+Forcaz By Decathlon, Cotton,46, XXL,119.4,81.3,48.3
+Forcaz By Decathlon, Cotton,48,TXL,124.5,83.8,49.5
+Finnoy, Cotton,38,S,106.7,76.2,44.5
+Finnoy, Cotton,40,M,111.8,77.5,45.7
+Finnoy, Cotton,42,L,116.8,78.7,47
+Finnoy, Cotton,44,XL,121.9,78.7,48.3
+Finnoy, Cotton,46,XXL,124.5,78.7,48.3
+FreeSoul, Cotton,38,S,102.9,75.7,43.9
+FreeSoul, Cotton,40,M,106.7,76.2,45.7
+FreeSoul, Cotton,42,L,110.5,77,47.8
+FreeSoul, Cotton,44,XL,118.9,78.7,49.5
+Fabindia, Cotton,39,XS,91.4,99.1,45.7
+Fabindia, Cotton,40,S,96.5,104.1,48.3
+Fabindia, Cotton,42,M,101.6,109.2,50.8
+Fabindia, Cotton,44,L,106.7,114.3,53.3
+Fabindia, Cotton,46,XL,111.8,119.4,55.9
+Firangi Yarn, Cotton,38,S,101.6,69.8,43.2
+Firangi Yarn, Cotton,40,M,106.7,71.1,44.5
+Firangi Yarn, Cotton,42,L,111.8,73.7,47
+Firangi Yarn, Cotton,44,XL,119.4,77,50.8
+Forca By Lifestyle, Cotton,38,XS,95.3,72.4,41.1
+Forca By Lifestyle, Cotton,39,S,100.3,73.2,43.2
+Forca By Lifestyle, Cotton,40,M,105.4,73.9,45.2
+Forca By Lifestyle, Cotton,42,L,110.5,74.9,46.7
+Forca By Lifestyle, Cotton,44,XL,115.6,75.9,48.5
+Forca By Lifestyle, Cotton,46,XXL,120.7,77.2,50.5
+Foga, Cotton,38,S,96.8,70.1,40.9
+Foga, Cotton,40,M,101.9,71.4,44.7
+Foga, Cotton,42,L,106.9,73.9,46
+Foga, Cotton,44,XL,112,73.9,48.5
+Foga, Cotton,46,XXL,117.1,76.5,51.1
+French Crown, Cotton,38,XS,104.1,71.1,44.5
+French Crown, Cotton,39,S,109.2,73.7,45.7
+French Crown, Cotton,40,M,111.8,74.9,47
+French Crown, Cotton,42,L,121.9,77.5,49.5
+French Crown, Cotton,44,XL,132.1,80,52.1
+French Crown, Cotton,46,XXL,139.7,81.3,54.6
+French Crown, Cotton,48,TXL,147.3,81.3,54.6
+French Crown, Cotton,50,FXL,152.4,86.4,55.9
+French Crown, Cotton,52,FIXL,157.5,86.4,55.9
+Four One Oh, Cotton,39, S,108,74.9,45.7
+Four One Oh, Cotton,40, M,110.5,74.9,47
+Four One Oh, Cotton,42, L,114.3,76.2,48.3
+Four One Oh, Cotton,44, XL,119.4,77.5,49.5
+Fugazze, Cotton,38,S,96.5,69.8,41.9
+Fugazze, Cotton,40,M,101.6,69.8,43.2
+Fugazze, Cotton,42,L,106.7,69.8,44.5
+Fugazze, Cotton,44,XL,111.8,69.8,45.7
+Fugazze, Cotton,46,XXL,116.8,69.8,47
+GreenFibre, Cotton,38, XS,101.6,71.1,43.2
+GreenFibre, Cotton,39,S,104.1,72.4,43.9
+GreenFibre, Cotton,40,M,109.2,72.4,43.9
+GreenFibre, Cotton,42,L,114.3,74.9,47.8
+GreenFibre, Cotton,44,XL,119.4,76.2,49
+Globus, Cotton,38,S,101.6,71.1,41.9
+Globus, Cotton,40,M,106.7,73.7,44.5
+Globus, Cotton,42,L,114.3,76.2,47
+Globus, Cotton,44, XL,119.4,78.7,49.5
+Globus, Cotton,46,XXL,124.5,81.3,52.1
+Gant, Cotton,36,S,91.4,74.9,41.9
+Gant, Cotton,38,M,96.5,76.2,43.2
+Gant, Cotton,40,L,101.6,78.7,45.7
+Gant, Cotton,42,XL,106.7,80,48.3
+Gant, Cotton,44,XXL,111.8,81.3,50.8
+Gant, Cotton,46,TXL,116.8,82.5,53.3
+Gant, Cotton,48,FXL,121.9,83.8,55.9
+Gespo, Cotton,36,S,91.4,68.6,41.9
+Gespo, Cotton,38,M,96.5,69.8,43.2
+Gespo, Cotton,40,L,101.6,71.9,44.5
+Gespo, Cotton,42,XL,106.7,73.7,45.7
+Gristones, Cotton,38,S,96.5,69.8,43.2
+Gristones, Cotton,40,M,101.6,71.1,44.5
+Gristones, Cotton,42,L,106.7,72.4,45.7
+Gristones, Cotton,44,XL,111.8,73.7,47
+Glordano, Cotton,38,S,106.7,77,45
+Glordano, Cotton,40,M,109.2,78,45.5
+Glordano, Cotton,42,L,111.8,79,46.5
+Glordano, Cotton,44,XL,119.4,79.8,47.8
+Glordano, Cotton,46,XXL,124.5,80.8,49.8
+Hangup, Cotton,38, S,106.7,71.1,44.5
+Hangup, Cotton,40, M,111.8,73.7,45.7
+Hangup, Cotton,42,L,116.8,73.7,47.8
+Hangup, Cotton,44,XL,127,76.2,49.5
+High Star, Cotton,38,S,96.5,69.8,42.7
+High Star, Cotton,40,M,101.6,71.1,44.5
+High Star, Cotton,42,L,106.7,72.4,46.5
+High Star, Cotton,44,XL,111.8,73.7,48.3
+HubberHolme, Cotton,38,S,96.5,69.8,38.1
+HubberHolme, Cotton,40,M,101.6,71.1,40.6
+HubberHolme, Cotton,42,L,106.7,71.1,43.2
+HubberHolme, Cotton,44,XL,111.8,74.9,45.7
+Huetrap, Cotton,36,S,97.8,68.8,40.9
+Huetrap, Cotton,39,M,102.9,70.9,42.9
+Huetrap, Cotton,40,L,108,72.9,45.2
+Huetrap, Cotton,42,XL,112.8,74.9,47
+Huetrap, Cotton,44,XXL,117.9,77,49
+Harsam, Cotton,36,S,90.9,77.5,44.5
+Harsam, Cotton,38, M,96,78.7,45.7
+Harsam, Cotton,40, L,101.1,80,47
+Harsam, Cotton,42,XL,106.4,81.3,48.3
+Harsam, Cotton,44,XXL,111.5,82.5,49.5
+Hatheli , Cotton,38,M,106.7,69.8,45.7
+Hatheli , Cotton,40,L,111.8,71.1,47
+Hatheli , Cotton,42,XL,116.8,72.4,48.3
+Hatheli , Cotton,44,XXL,121.9,73.7,49.5
+Hatheli , Cotton,46,TXL,127,74.9,50.8
+Hatheli , Cotton,48,FXL,132.1,76.2,52.1
+ Hypernation, Cotton,38,S,94,74.9,40.6
+ Hypernation, Cotton,40,M,99.1,77.5,42.7
+ Hypernation, Cotton,42,L,104.1,80,44.5
+ Hypernation, Cotton,44,XL,109.2,82.5,46.5
+ Hypernation, Cotton,46,XXL,114.3,85.1,48.3
+Huggun, Cotton,39,S,99.1,69.8,43.2
+Huggun, Cotton,40,M,101.6,71.1,44.5
+Huggun, Cotton,41,L,104.1,73.7,47
+Huggun, Cotton,42.5,XL,108,76.2,48.3
+InstaFab Plus, Cotton,48,TXL,127,80,53.3
+InstaFab Plus, Cotton,50,FXL,132.1,80.8,54.6
+InstaFab Plus, Cotton,52,FIXL,137.2,81.8,55.9
+InstaFab Plus, Cotton,54,SXL,142.2,83.1,57.1
+Indian Terrian, Cotton,38,S,104.1,76.5,44.5
+Indian Terrian, Cotton,40,M,111.8,76.5,47
+Indian Terrian, Cotton,42,L,119.4,79,49.5
+Indian Terrian, Cotton,44,XL,127,81.5,52.1
+Indian Terrian, Cotton,46, XXL,134.6,82.8,54.6
+Ivoc Plus, Cotton,46,TXL,133.3,78.7,53.3
+Ivoc Plus, Cotton,48,FXL,138.4,80,54.6
+Ivoc Plus, Cotton,50,FIXL,143.5,81.3,55.9
+Ivoc Plus, Cotton,52,SXL,148.6,82,57.9
+Indo Era, Cotton,38,S,100.3,74.7,43.2
+Indo Era, Cotton,40,M,107.4,75.7,45.2
+Indo Era, Cotton,42,L,115.1,75.7,47
+Indo Era, Cotton,44,XL,122.7,77.5,49
+Indo Era, Cotton,46,XXL,132.8,79.5,52.8
+Imyoung, Cotton,38,S,101.1,71.9,44.5
+Imyoung, Cotton,40,M,106.2,73.7,45.7
+Imyoung, Cotton,42,L,111.3,75.7,47
+Imyoung, Cotton,44,XL,117.6,77.5,48.3
+Imyoung, Cotton,46,XXL,124,79.5,50.3
+Indus Route By Pantaloons, Cotton,39,S,106.7,74.9,45.2
+Indus Route By Pantaloons, Cotton,40,M,111.8,76.2,46.5
+Indus Route By Pantaloons, Cotton,42,L,116.8,77.5,47.8
+Indus Route By Pantaloons, Cotton,44,XL,121.9,78.7,49
+Indus Route By Pantaloons, Cotton,46,XXL,127,80,50.3

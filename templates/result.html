@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prediction Result - Shirt Size Predictor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="nav-brand">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
+                </svg>
+                <span>Shirt Size Predictor</span>
+            </div>
+            <div class="nav-user">
+                <span>👋 {{ session.username }}</span>
+                <a href="/logout" class="btn-logout">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="results-container">
+        <div class="results-header">
+            <div class="success-animation">
+                <svg viewBox="0 0 52 52">
+                    <circle class="success-circle" cx="26" cy="26" r="25" fill="none"/>
+                    <path class="success-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                </svg>
+            </div>
+            <h1>Analysis Complete!</h1>
+            <p>Your body measurements have been successfully analyzed</p>
+        </div>
+
+        <div class="results-grid">
+            <div class="result-card image-card">
+                <div class="card-header-result">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                        <circle cx="8.5" cy="8.5" r="1.5"/>
+                        <polyline points="21 15 16 10 5 21"/>
+                    </svg>
+                    <h3>Analyzed Image</h3>
+                </div>
+                <div class="image-wrapper">
+                    <img src="{{ img_path }}" alt="Annotated Image" class="analyzed-image">
+                    <div class="image-overlay">
+                        <p>Pose landmarks detected successfully</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="result-card measurements-card">
+                <div class="card-header-result">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="21" y1="10" x2="3" y2="10"/>
+                        <line x1="21" y1="6" x2="3" y2="6"/>
+                        <line x1="21" y1="14" x2="3" y2="14"/>
+                        <line x1="21" y1="18" x2="3" y2="18"/>
+                    </svg>
+                    <h3>Body Measurements</h3>
+                </div>
+                <div class="measurements-grid">
+                    <div class="measurement-item">
+                        <div class="measurement-icon shoulder-color">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14"/>
+                                <circle cx="5" cy="12" r="2"/>
+                                <circle cx="19" cy="12" r="2"/>
+                            </svg>
+                        </div>
+                        <div class="measurement-details">
+                            <span class="measurement-label">Shoulder Width</span>
+                            <span class="measurement-value">{{ shoulder }} <small>cm</small></span>
+                        </div>
+                    </div>
+
+                    <div class="measurement-item">
+                        <div class="measurement-icon chest-color">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                            </svg>
+                        </div>
+                        <div class="measurement-details">
+                            <span class="measurement-label">Chest</span>
+                            <span class="measurement-value">{{ chest }} <small>cm</small></span>
+                        </div>
+                    </div>
+
+                    <div class="measurement-item">
+                        <div class="measurement-icon waist-color">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                            </svg>
+                        </div>
+                        <div class="measurement-details">
+                            <span class="measurement-label">Waist</span>
+                            <span class="measurement-value">{{ waist }} <small>cm</small></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="prediction-results">
+            <div class="models-comparison">
+                <div class="model-result">
+                    <div class="model-icon rf-color">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                        </svg>
+                    </div>
+                    <h4>Random Forest & XGBoost Predicted result</h4>
+                    <div class="size-badge rf-badge">{{ rf_size }}</div>
+                </div>
+
+                <!-- <div class="model-result">
+                    <div class="model-icon xgb-color">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                        </svg>
+                    </div>
+                    <h4>XGBoost</h4>
+                    <div class="size-badge xgb-badge">
+                        {% if xgb_size %}{{ rf_size }}{% else %}N/A{% endif %}
+                    </div>
+                </div> -->
+            </div>
+
+            <div class="final-recommendation">
+                <div class="recommendation-glow"></div>
+                <div class="recommendation-content">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                    </svg>
+                    <h2>Recommended Size</h2>
+                    <div class="final-size-badge">{{ final_size }}</div>
+                    <p>Based on AI analysis of your body measurements</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="action-buttons">
+            <a href="/shirt-size-1" class="btn-secondary">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="19" y1="12" x2="5" y2="12"/>
+                    <polyline points="12 19 5 12 12 5"/>
+                </svg>
+                Analyze Another Photo
+            </a>
+            <button onclick="window.print()" class="btn-primary">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 6 2 18 2 18 9"/>
+                    <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+                    <rect x="6" y="14" width="12" height="8"/>
+                </svg>
+                Print Results
+            </button>
+        </div>
+    </div>
+
+    <footer class="app-footer">
+        <p>Made by Rajkumar — Major Project</p>
+    </footer>
+
+    <style>
+        @keyframes successAnimation {
+            0% { transform: scale(0) rotate(0deg); }
+            50% { transform: scale(1.1) rotate(180deg); }
+            100% { transform: scale(1) rotate(360deg); }
+        }
+
+        @keyframes checkAnimation {
+            0% { stroke-dashoffset: 100; }
+            100% { stroke-dashoffset: 0; }
+        }
+
+        .success-animation {
+            animation: successAnimation 0.6s ease-out;
+        }
+
+        .success-circle {
+            stroke: #10b981;
+            stroke-width: 2;
+            stroke-dasharray: 166;
+            stroke-dashoffset: 166;
+            animation: checkAnimation 0.6s 0.3s ease-out forwards;
+        }
+
+        .success-check {
+            stroke: #10b981;
+            stroke-width: 3;
+            stroke-linecap: round;
+            stroke-dasharray: 48;
+            stroke-dashoffset: 48;
+            animation: checkAnimation 0.3s 0.6s ease-out forwards;
+        }
+    </style>
+</body>
+</html>
