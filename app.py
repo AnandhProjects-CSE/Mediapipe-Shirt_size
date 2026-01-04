@@ -143,69 +143,75 @@ def logout():
 @login_required
 def index():
     if request.method == "POST":
-        if "image" not in request.files:
-            flash("No file uploaded", "error")
-            return render_template("index.html", error="No file part")
-        
-        file = request.files["image"]
-        if file.filename == "":
-            flash("No file selected", "error")
-            return render_template("index.html", error="No selected file")
-        
-        if file and allowed_file(file.filename):
-            # save file
-            ext = file.filename.rsplit(".", 1)[1].lower()
-            fname = f"{uuid.uuid4().hex}.{ext}"
-            fpath = os.path.join(app.config["UPLOAD_FOLDER"], fname)
-            file.save(fpath)
+        try:
+            if "image" not in request.files:
+                flash("No file uploaded", "error")
+                return render_template("index.html", error="No file part")
+            
+            file = request.files["image"]
+            if file.filename == "":
+                flash("No file selected", "error")
+                return render_template("index.html", error="No selected file")
+            
+            if file and allowed_file(file.filename):
+                # save file
+                ext = file.filename.rsplit(".", 1)[1].lower()
+                fname = f"{uuid.uuid4().hex}.{ext}"
+                fpath = os.path.join(app.config["UPLOAD_FOLDER"], fname)
+                file.save(fpath)
 
-            # get user height
-            try:
-                height_cm = float(request.form.get("height_cm", "170"))
-            except:
-                height_cm = 170.0
+                # get user height
+                try:
+                    height_cm = float(request.form.get("height_cm", "170"))
+                except:
+                    height_cm = 170.0
 
-            # process image
-            img = cv2.imread(fpath)
-            measurements, annotated = extract_measurements_from_image(img, user_height_cm=height_cm)
-            if measurements is None:
-                flash("No person detected in image", "error")
-                return render_template("index.html", error="No person/pose detected. Upload a full-body frontal image.")
+                # process image
+                img = cv2.imread(fpath)
+                img = cv2.resize(img, (640, 480))
+                measurements, annotated = extract_measurements_from_image(img, user_height_cm=height_cm)
+                if measurements is None:
+                    flash("No person detected in image", "error")
+                    return render_template("index.html", error="No person/pose detected. Upload a full-body frontal image.")
 
-            shoulder_final, chest_final, waist_final = measurements
+                shoulder_final, chest_final, waist_final = measurements
 
-            # Prepare dataframe for model
-            import pandas as pd
-            test_df = pd.DataFrame([[shoulder_final, chest_final, waist_final]],
-                                   columns=["shoulder", "chest_cm", "waist_cm"])
+                # Prepare dataframe for model
+                import pandas as pd
+                test_df = pd.DataFrame([[shoulder_final, chest_final, waist_final]],
+                                    columns=["shoulder", "chest_cm", "waist_cm"])
 
-            # Predict
-            rf_pred = rf.predict(test_df)[0]
-            rf_size = le.inverse_transform([rf_pred])[0]
+                # Predict
+                rf_pred = rf.predict(test_df)[0]
+                rf_size = le.inverse_transform([rf_pred])[0]
 
-            if xgb is not None:
-                xgb_pred = xgb.predict(test_df)[0]
-                xgb_size = le.inverse_transform([xgb_pred])[0]
-            else:
-                xgb_size = None
+                if xgb is not None:
+                    xgb_pred = xgb.predict(test_df)[0]
+                    xgb_size = le.inverse_transform([xgb_pred])[0]
+                else:
+                    xgb_size = None
 
-            # Final decision
-            final_size = rf_size if (xgb_size is None or rf_size == xgb_size) else rf_size
+                # Final decision
+                final_size = rf_size if (xgb_size is None or rf_size == xgb_size) else rf_size
 
-            # save annotated image
-            out_name = f"annot_{uuid.uuid4().hex}.{ext}"
-            out_path = os.path.join(app.config["UPLOAD_FOLDER"], out_name)
-            cv2.imwrite(out_path, annotated)
+                # save annotated image
+                out_name = f"annot_{uuid.uuid4().hex}.{ext}"
+                out_path = os.path.join(app.config["UPLOAD_FOLDER"], out_name)
+                cv2.imwrite(out_path, annotated)
 
-            # show results
-            return render_template("result.html",
-                                   img_path=os.path.join("/", out_path),
-                                   shoulder=round(shoulder_final, 2),
-                                   chest=round(chest_final, 2),
-                                   waist=round(waist_final, 2),
-                                   rf_size=rf_size,
-                                   xgb_size=xgb_size,
-                                   final_size=final_size)
+                # show results
+                return render_template("result.html",
+                                    img_path=os.path.join("/", out_path),
+                                    shoulder=round(shoulder_final, 2),
+                                    chest=round(chest_final, 2),
+                                    waist=round(waist_final, 2),
+                                    rf_size=rf_size,
+                                    xgb_size=xgb_size,
+                                    final_size=final_size)
+        except Exception as e:
+            app.logger.error("Prediction failed", exc_info=True)
+            flash("Prediction failed. Please try a smaller image.", "error")
+            return render_template("index.html") 
     
     return render_template("index.html")
 
